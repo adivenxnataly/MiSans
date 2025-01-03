@@ -1,7 +1,7 @@
-## MiSans
+# MiSans
 ![](https://github.com/adivenxnataly/MiSans/blob/main/files/banner.png)
 
-## Requirement
+### Requirement
 this is module so install using Magisk app:
  [Download from Release page](https://github.com/adivenxnataly/MiSans/releases)
 
@@ -10,9 +10,9 @@ this is module so install using Magisk app:
   
  *does not cause softbrick or bootloop.
 
-## Tested on (Stock ROM)
+#### Tested on (Stock ROM)
   - Android 12 - MIUI 13
   - Android 13 - MIUI 14
 
-## Source & License
+#### Source & License
 Xiaomi Inc.: [MiSans](https://hyperos.mi.com/font/en/)
