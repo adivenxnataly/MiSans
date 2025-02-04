@@ -127,7 +127,6 @@ else
     if [ -z $(find $MODPATH/ -type d -name theme_webview) ]; then
         ui_print ""
         ui_print "   Theme_Webview is already exist!"
-        rm -rf $MODPATH/files
     else
         ui_print "   Create Theme_Webview directory.."
         sleep 1
@@ -135,7 +134,6 @@ else
         sleep 1
         ui_print "   Webview Font: $(find $MODPATH/data/system/fonts/theme_webview -type f -name Roboto-Regular.ttf)"
         ui_print "   success!"
-        rm -rf $MODPATH/files
     fi
 fi
 
