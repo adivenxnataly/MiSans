@@ -10,6 +10,8 @@ for METADATA in $BACKUP; do
 done
 }
 
+backup
+
 if [ -f $INFO ]; then
   while read LINE; do
     if [ "$(echo -n $LINE | tail -c 1)" == "~" ]; then
