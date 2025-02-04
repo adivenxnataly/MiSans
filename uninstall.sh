@@ -1,3 +1,15 @@
+# uninstall 
+backup(){
+mkdir -p /metadata/early-mount.d/system/fonts
+
+METADATA=/metadata/early-mount.d/system/fonts
+BACKUP=$MODPATH/files/backups
+for METADATA in $BACKUP; do
+    cp $BACKUP/Roboto-Regular.ttf $METADATA/Roboto-Regular.ttf
+    cp $BACKUP/RobotoStatic-Regular.ttf $METADATA/RobotoStatic-Regular.ttf
+done
+}
+
 if [ -f $INFO ]; then
   while read LINE; do
     if [ "$(echo -n $LINE | tail -c 1)" == "~" ]; then
