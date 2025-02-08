@@ -11,8 +11,11 @@ this is module so install using Magisk app:
  [Download from Release page](https://github.com/adivenxnataly/MiSans/releases)
 
   - Android 12 (SDK 31)
-  - using Roboto for default font
-  
+  - using Roboto for default font:
+    
+    ![this is the required to install module (using Roboto font by default)](https://github.com/adivenxnataly/MiSans/blob/main/files/requirements_for_install_module.jpg)
+     If you don't use Roboto-font by default, then the module will not give any effect.
+    
  *does not cause softbrick or bootloop.
 
 #### Tested on (Stock ROM)
